@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IM+Fell+English:ital@0;1&display=swap');
+
 :root{
     --primary-color:blue;
     --secondary-color:darkblue;
@@ -19,11 +21,16 @@ main{
     margin:0 0;
 }
 
-
+.navbar{
+    overflow:hidden;
+    position: fixed;
+    top:0;
+    width:100%;
+}
 .nav-logo{
     display:inline-block;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 50px;
+    font-family:"IM Fell English SC", serif;
+    font-weight: 600;
     font-size: larger;
     margin-left: 100px;
     color : var(--primary-color);
@@ -67,6 +74,8 @@ footer{
 
 .footer-logo{
     text-decoration: none;
+    font-family:"IM Fell English SC", serif;
+    font-weight: 600;
     
 }
 
